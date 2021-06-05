@@ -33,4 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
          ls -a
+         echo
+         echo java is installed?
+         java --version 
         
