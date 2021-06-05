@@ -54,9 +54,9 @@ jobs:
       - name: Step 7 -Log build tool versions
         run:
          git --version
-	 mvn --version
+         mvn --version
 
       - name: Step 8 -Log the post-build disc space
-        run df
+         run df
  
          
