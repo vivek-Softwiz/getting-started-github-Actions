@@ -1,4 +1,4 @@
- ls -a
+         ls -a
          echo
          echo java is installed?
          java --version 
