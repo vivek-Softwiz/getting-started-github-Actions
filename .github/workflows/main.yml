@@ -59,9 +59,12 @@ jobs:
       - name: Step 8 -Log the post-build disc space
         run: |
             df
-      - name: Step 8 -Log env
+      - name: Step 9 -Log env
         run: |
             env
+      - name: Step 10 -Get execution policy
+        run: |
+            Get ExecutionPolicy
          
 
 
