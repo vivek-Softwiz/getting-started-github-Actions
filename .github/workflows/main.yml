@@ -64,7 +64,7 @@ jobs:
             env
       - name: Step 10 -Get execution policy
         run: |
-            Get ExecutionPolicy
+            Get-ExecutionPolicy
          
 
 
