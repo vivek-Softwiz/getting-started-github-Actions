@@ -113,5 +113,12 @@ jobs:
       - name: Step 8 -Log the post-build disc space
         run: |
             df
- 
+      - name: Step 8 -Set up cache for maven
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2
+          key: ${{runner.os}}-m2-${{hashfiles('**/pom.xml')}}
+          restore-keys: ${{runner.os}}-m2
+         
+          
          
